@@ -1,6 +1,7 @@
 # Jeopardy Project
 
-**Link to Deployed App:** <http://iamsydsmith.github.io/tic-tac-toe/>
+**Link to Deployed App:** <http://iamsydsmith.github.io/tic-tac-toe/>  
+
 **Link to User Stories on Trello:** <https://trello.com/b/yaXc4pEC/ajs-jeopardy>
 
 ## Project Description
