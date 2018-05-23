@@ -28,7 +28,7 @@ let ans27 = '';
 let ans28 = '';
 let ans29 = '';
 let ans30 = '';
-const listOfAnswers=[ans1,ans2,ans3,ans4,ans5];
+const listOfAnswers=[ans1,ans2,ans3,ans4,ans5,ans6];
 let score = 0;
 let scoreTally = 0;
 
