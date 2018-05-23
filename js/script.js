@@ -28,7 +28,7 @@ let ans27 = '';
 let ans28 = '';
 let ans29 = '';
 let ans30 = '';
-const listOfAnswers=[ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10,ans11,ans12,ans13,ans14,ans15];
+const listOfAnswers = [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13, ans14, ans15];
 let score = 0;
 let scoreTally = 0;
 
@@ -79,16 +79,23 @@ function answered(theDiv, input, theScore) {
     points = Number(points);
     console.log(points);
     let isCorrect;
-    for (let i = 0; i < listOfAnswers.length; i++) {
-        if (answer == listOfAnswers[i]) {
-           isCorrect=true;
-        }
-        else {
-            isCorrect=false;
+
+    function searchForAnswer() {
+        for (let i = 0; i < listOfAnswers.length; i++) {
+            if (answer == listOfAnswers[i]) {
+                console.log('it is a match');
+                return true;
+            }
+            else {
+                console.log('ummmmm no');
+                return false;
+            }
         }
     }
 
-    if (isCorrect == true){
+    isCorrect=searchForAnswer();
+
+    if (isCorrect == true) {
         document.getElementById(theDiv).innerHTML = '<h2>CORRECT!</h2>';
         scoreTally += points;
         document.getElementById('score').innerHTML = 'Winnings: $' + scoreTally;
