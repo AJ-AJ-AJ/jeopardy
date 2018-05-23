@@ -27,7 +27,7 @@ The goal of this project was to create a game that would allow the user to play 
 
 ## Wireframe
 
-![Wireframe](board.png)
+![Wireframe](images/board.png)
 
 
 ## Additions to a Future Version
