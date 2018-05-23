@@ -23,6 +23,7 @@ let ans22 = '';
 let ans23 = '';
 let ans24 = '';
 let ans25 = '';
+let ans26 = '';
 const listOfAnswers=[ans1,ans2,ans3];
 let score = 0;
 let scoreTally = 0;
