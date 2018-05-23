@@ -14,7 +14,7 @@ The goal of this project was to create a game that would allow the user to play 
   * Languages - HTML5, CSS3, Javascript
   * Wireframe - Balsamiq
   * Project Planning & User Stories - [Trello](https://trello.com/b/yaXc4pEC/ajs-jeopardy)
-  * Deployment - Bitballoon - [Bitballoon link](http://practical-spence-a5b035.bitballoon.com/)
+  * Deployment - Bitballoon - [Bitballoon](http://practical-spence-a5b035.bitballoon.com/)
   * Visual Studio Code
   * iTerm
 
