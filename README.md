@@ -28,6 +28,8 @@ The goal of this project was to create a game that would allow the user to play 
 ## Wireframe
 
 ![Wireframe](images/board.png)
+![Wireframe](images/instructions.png)
+![Wireframe](images/answerBoard.png)
 
 
 ## Additions to a Future Version
