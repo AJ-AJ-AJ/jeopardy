@@ -6,7 +6,7 @@
 
 ## Project Description
 
-The goal of this project was to create a game that would allow the user to play a game of Jeopardy. This is a quiz game where the user gets to choose a question from a variety of topics while choosing a dollar amount (200 to 1000) to attempt to win. The questions are phrased as answers and the user inputs a question to attempt to win. 
+The goal of this project was to create a game that would allow the user to play a game of Jeopardy. This is a quiz game where the user gets to choose a question from a variety of topics while choosing a dollar amount ($200 to $1000) to attempt to win. The questions are phrased as answers and the user inputs a question to attempt to win. 
 
 
 ## Technologies Used
@@ -27,7 +27,7 @@ The goal of this project was to create a game that would allow the user to play 
 
 ## Wireframe
 
-![Wireframe](https://github.com/iamsydsmith/tic-tac-toe/blob/master/img/Tic_Tac_Toe_-_wireframe.png)
+![Wireframe]()
 
 
 ## Additions to a Future Version
