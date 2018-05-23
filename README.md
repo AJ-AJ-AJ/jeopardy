@@ -27,7 +27,7 @@ The goal of this project was to create a game that would allow the user to play 
 
 ## Wireframe
 
-![Wireframe]()
+![Wireframe](board.png)
 
 
 ## Additions to a Future Version
@@ -36,3 +36,4 @@ The goal of this project was to create a game that would allow the user to play 
   * Add keyframes
   * Add more challenging questions
   * Add round 2
+  * Add useful commit messages
