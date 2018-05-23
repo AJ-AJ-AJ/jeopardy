@@ -4,10 +4,6 @@ body{
     width: 68vw;
     margin-left: 16vw;
 }
-/* h5s are answers that are always hidden */
-h5{
-    display: none;
-}
 
 h3,h2{
     color:yellow;
