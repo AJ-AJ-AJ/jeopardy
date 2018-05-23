@@ -1,6 +1,6 @@
 # Jeopardy Project
 
-**Link to Deployed App:** <http://iamsydsmith.github.io/tic-tac-toe/>  
+**Link to Deployed App:** <http://practical-spence-a5b035.bitballoon.com/>  
 
 **Link to User Stories on Trello:** <https://trello.com/b/yaXc4pEC/ajs-jeopardy>
 
@@ -12,8 +12,10 @@ The goal of this project was to create a game that would allow the user to play 
 ## Technologies Used
 
   * Languages - HTML5, CSS3, Javascript
+  * Wireframe - Balsamiq
   * Project Planning & User Stories - [Trello](https://trello.com/b/yaXc4pEC/ajs-jeopardy)
   * Visual Studio Code
+  * iTerm
 
 
 ## Features
@@ -35,7 +37,8 @@ The goal of this project was to create a game that would allow the user to play 
 ## Additions to a Future Version
 
   * Style the background
-  * Add keyframes
-  * Add more challenging questions
-  * Add round 2
+  * Keyframes
+  * More challenging questions
+  * A game over animation
+  * Round 2
   * Add useful commit messages
