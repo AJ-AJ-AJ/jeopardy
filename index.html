@@ -37,8 +37,8 @@
         <div id="american" class="row" onclick="active('abutt','american');">
 
             <!-- BIG BUTTON AMERICAN -->
-            <button id="abutt" class="category" >American</button>
-          
+            <button id="abutt" class="category">American</button>
+
             <!-- 200 BUTTON AMERICAN-->
             <button id="a200" class="money" onclick="displayOne('qa200'); this.onclick=null; makeBlue('a200')">200</button>
             <!-- Hidden by default: Question & Answer -->
@@ -49,7 +49,7 @@
                 <input id="ina200" type="text" value="your answer here" onfocus="this.value=''">
                 <button id="submita200" class="submit" onclick="answered('qa200','ina200','a200');">Submit</button>
             </div>
-           
+
             <!-- 400 BUTTON AMERICAN-->
             <button id='a400' class="money" onclick="displayOne('qa400'); this.onclick=null; makeBlue('a400')">400</button>
             <!-- Hidden by default: Question & Answer -->
@@ -60,17 +60,17 @@
                 <input id='ina400' type="text" value="your answer here" onfocus="this.value=''">
                 <button id="submita400" class="submit" onclick="answered('qa400','ina400','a400');">Submit</button>
             </div>
-            
-             <!-- 600 BUTTON AMERICAN-->
-            <button class="money">600</button>
+
+            <!-- 600 BUTTON AMERICAN-->
+            <button id='a600' class="money" onclick="displayOne('qa600'); this.onclick=null; makeBlue('a600')">600</button>
             <!-- Hidden by default: Question & Answer -->
-            <div class="questions">
+            <div id='qa600' class="questions">
                 <h3>American Food for 600</h3>
                 <h2>This cookout food is made of ground beef</h2>
                 <!-- what is a hamburger? -->
-                <input type="text" value="your answer here">
+                <button id="submita600" class="submit" onclick="answered('qa600','ina600','a600');">Submit</button>
             </div>
-            
+
             <!-- 800 BUTTON AMERICAN-->
             <button class="money">800</button>
             <!-- Hidden by default: Question & Answer -->
@@ -80,7 +80,7 @@
                 <!-- what is a hamburger? -->
                 <input type="text" value="your answer here">
             </div>
-           
+
             <!-- 1000 BUTTON AMERICAN-->
             <button class="money">1000</button>
             <!-- Hidden by default: Question & Answer -->
@@ -93,7 +93,7 @@
         </div>
 
         <!-- Caribbean -->
-        <div id="caribbean" class="row">
+        <div id="caribbean" class="row" onclick="active('abutt','american');">
             <button id="cbutt" class="category" onclick="active('cbutt','caribbean');">Caribbean</button>
             <button class="money">200</button>
             <button class="money">400</button>
