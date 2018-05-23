@@ -11,17 +11,17 @@ The goal of this project was to create a game that would allow the user to play 
 ## Technologies Used
 
   * Languages - HTML5, CSS3, Javascript
-  * Project Planning & User Stories - [Trello](https://trello.com/b/DAYM9Byr/wdi-project-1-tictactoe)
+  * Project Planning & User Stories - [Trello](https://trello.com/b/yaXc4pEC/ajs-jeopardy)
   * Visual Studio Code
 
 
 ## Features
-
-  * SweetAlert, an awesome replacement for JavaScript's alert
+ 
   * Scoreboard
-  * New Game Button
-  * Reset Score Button
-  * Highlights winning squares
+  * Instructions
+  * Disabled Buttons
+  * Click Events
+  * Hover Effects
 
 
 ## Wireframe
@@ -31,5 +31,7 @@ The goal of this project was to create a game that would allow the user to play 
 
 ## Additions to a Future Version
 
-  * Make it responsive
-  * Add A.I. (player vs. computer)
+  * Style the background
+  * Add keyframes
+  * Add more challenging questions
+  * Add round 2
