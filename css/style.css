@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 68vw;
+    margin-left: 16vw;
+}
+/* h5s are answers that are always hidden */
+h5{
+    display: none;
+}
+
+h3,h2{
+    color:yellow;
+}
+
+button{
+    outline: 0;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.category{
+   color:gray;
+   border-color: #404040;
+   font-size: 20px;
+   border-radius: 5%;
+   width: 120px;
+   height: 80px;
+   margin:10px;
+}
+
+.category:hover{
+    border-width: 3px;
+ }
+
+.money{
+   color:gray;
+   border-color: #404040;
+   font-size: 15px;
+   border-radius: 10%;
+   width: 60px;
+   height: 40px;
+   margin: 10%;
+}
+
+.money:hover{
+   width: 80px;
+   border-width: 3px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#directions{
+    display:none;
+    position: absolute;
+    background: white;
+    width:100%;
+    height: 1400px;
+    margin-top: 5%;
+    align-self: center;
+    z-index: 0;
+    color: #0000cc;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-top: 12%;
+}
+
+p{
+    width:55%;
+    padding: 0% 0% 0% 25%;
+    font-size: 20px;
+}
+
+.questions{
+    display: none;
+    position: absolute;
+    background-color: #0000cc;
+    width: 70%;
+    height: 100vh;
+    align-self: center;
+    z-index: 2;
+    left: 15%;
+    top:0%;
+    color: yellow;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+input{
+    margin-top: 10%;
+    padding: 10px;
+    width: 30%;
+    font-size: 20px;
+}
+
+.submit{
+    height: 7%;
+    width: 10%;
+    box-shadow: none;
+}
+
+#plus{
+    display: none;
+}
+
+#board{
+    display: flex;
+    padding-top: 5px;
+}
+
+#instructions{
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: #0000cc;
+    font-weight: bold;
+    padding: 5px;
+    border-color: #0000cc;
+    z-index: 1;
+}
+
+#instructions:hover{
+   border-width: 3px;
+}
+
+#closeInstructions{
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    color: #0000cc;
+    font-weight: bold;
+    padding: 5px;
+    border-color: #0000cc;
+    display:none;
+    z-index: 1;
+}
+
+#closeInstructions:hover{
+    border-width: 3px;
+ }
+
+#scoreBoard{
+    align-self: flex-end;
+    background-color: #0000cc;
+    color: whitesmoke;
+    padding: 5px;
+    width: 225px;
+    text-align: center;
+    z-index: 1;
+}

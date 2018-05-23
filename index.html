@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Winnings -->
+    <div id="scoreBoard">
+        <h1 id='score'>Winnings: $0</h1>
+    </div>
+
+    <!-- Instructions -->
+    <button id="instructions" onclick="display('directions','instructions','closeInstructions');">Instructions</button>
+
+    <!-- Close Instructions -->
+    <button id="closeInstructions" onclick="hide('directions','closeInstructions','instructions');">Close Instructions</button>
+
+    <!-- Hidden by default: Directions -->
+    <div id="directions">
+        <p>Click an amount to make a selection underneath the category of your choice.</p>
+        <p>Answer correctly, and the money you've won will be added to winnings.</p>
+        <p>Answer incorrectly, and you will lose money.</p>
+    </div>
+
+    <!-- Hidden by default: +/- Money -->
+    <div id="plus">
+        <h1>+/- Money</h1>
+    </div>
+    <div id="board">
+        <!-- American -->
+        <div id="american" class="row" onclick="active('abutt','american');">
+            <button id="abutt" class="category" >American</button>
+           
+            <button id="a200" class="money" onclick="displayOne('qa200'); this.onclick=null; makeBlue('a200')">200</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id="qa200" class="questions">
+                <h3>American Food for 200</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? Answer #1-->
+                <input id="ina200" type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submita200" class="submit" onclick="answered('qa200','ina200','a200');">Submit</button>
+            </div>
+           
+            <button class="money">400</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div class="questions">
+                <h3>American Food for 400</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input type="text" value="your answer here">
+            </div>
+            
+            <button class="money">600</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div class="questions">
+                <h3>American Food for 600</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input type="text" value="your answer here">
+            </div>
+            
+            <button class="money">800</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div class="questions">
+                <h3>American Food for 800</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input type="text" value="your answer here">
+            </div>
+           
+            <button class="money">1000</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div class="questions">
+                <h3>American Food for 1000</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input type="text" value="your answer here">
+            </div>
+        </div>
+
+        <!-- Caribbean -->
+        <div id="caribbean" class="row">
+            <button id="cbutt" class="category" onclick="active('cbutt','caribbean');">Caribbean</button>
+            <button class="money">200</button>
+            <button class="money">400</button>
+            <button class="money">600</button>
+            <button class="money">800</button>
+            <button class="money">1000</button>
+        </div>
+
+        <!-- Japanese -->
+        <div id="japanese" class="row">
+            <button id="jbutt" class="category" onclick="active('jbutt','japanese');">Japanese</button>
+            <button class="money">200</button>
+            <button class="money">400</button>
+            <button class="money">600</button>
+            <button class="money">800</button>
+            <button class="money">1000</button>
+        </div>
+
+        <!-- Italian -->
+        <div id="italian" class="row">
+            <button id="ibutt" class="category" onclick="active('ibutt','italian');">Italian</button>
+            <button class="money">200</button>
+            <button class="money">400</button>
+            <button class="money">600</button>
+            <button class="money">800</button>
+            <button class="money">1000</button>
+        </div>
+
+        <!-- Mexican -->
+        <div id="mexican" class="row">
+            <button id="mbutt" class="category" onclick="active('mbutt','mexican');">Mexican</button>
+            <button class="money">200</button>
+            <button class="money">400</button>
+            <button class="money">600</button>
+            <button class="money">800</button>
+            <button class="money">1000</button>
+        </div>
+
+        <!-- Desserts -->
+        <div id="desserts" class="row">
+            <button id="dbutt" class="category" onclick="active('dbutt','desserts');">Desserts</button>
+            <button class="money">200</button>
+            <button class="money">400</button>
+            <button class="money">600</button>
+            <button class="money">800</button>
+            <button class="money">1000</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
