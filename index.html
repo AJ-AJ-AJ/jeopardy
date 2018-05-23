@@ -344,11 +344,60 @@
              <!-- BIG BUTTON DESSERTS -->
             <button id="dbutt" class="category">Desserts</button>
 
-            <button class="money">200</button>
-            <button class="money">400</button>
-            <button class="money">600</button>
-            <button class="money">800</button>
-            <button class="money">1000</button>
+            <!-- 200 BUTTON DESSERTS-->
+            <button id="d200" class="money" onclick="displayOne('qd200'); this.onclick=null; makeBlue('d200')">200</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id="qd200" class="questions">
+                <h3>American Food for 200</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? Answer #1-->
+                <input id="ind200" type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submitd200" class="submit" onclick="answered('qd200','ind200','d200');">Submit</button>
+            </div>
+
+            <!-- 400 BUTTON DESSERTS-->
+            <button id='d400' class="money" onclick="displayOne('qd400'); this.onclick=null; makeBlue('d400')">400</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id='qd400' class="questions">
+                <h3>American Food for 400</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input id='ind400' type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submitd400" class="submit" onclick="answered('qd400','ind400','d400');">Submit</button>
+            </div>
+
+            <!-- 600 BUTTON DESSERTS-->
+            <button id='d600' class="money" onclick="displayOne('qd600'); this.onclick=null; makeBlue('d600')">600</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id='qd600' class="questions">
+                <h3>American Food for 600</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input id='ind600' type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submitd600" class="submit" onclick="answered('qd600','ind600','d600');">Submit</button>
+            </div>
+
+            <!-- 800 BUTTON DESSERTS-->
+            <button id='d800' class="money" onclick="displayOne('qd800'); this.onclick=null; makeBlue('d800')">800</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id='qd800' class="questions">
+                <h3>American Food for 800</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input id='ind800' type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submitd800" class="submit" onclick="answered('qd800','ind800','d800');">Submit</button>
+            </div>
+
+            <!-- 1000 BUTTON DESSERTS-->
+            <button id='d1000' class="money" onclick="displayOne('qd1000'); this.onclick=null; makeBlue('d1000')">1000</button>
+            <!-- Hidden by default: Question & Answer -->
+            <div id='qd1000' class="questions">
+                <h3>American Food for 1000</h3>
+                <h2>This cookout food is made of ground beef</h2>
+                <!-- what is a hamburger? -->
+                <input id='ind1000' type="text" value="your answer here" onfocus="this.value=''">
+                <button id="submitd1000" class="submit" onclick="answered('qd1000','ind1000','d1000');">Submit</button>
+            </div>
         </div>
     </div>
 
