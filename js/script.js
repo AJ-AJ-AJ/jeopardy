@@ -1,6 +1,6 @@
 let ans1 = 'what is a hamburger?';
 let ans2 = 'what are peas?';
-let ans3 = '';
+let ans3 = 'what is ramen?';
 let ans4 = '';
 let ans5 = '';
 let ans6 = '';
