@@ -1,5 +1,5 @@
 let ans1 = 'what is a hamburger?';
-let ans2 = 'This side dish is called Rice and ___?___ ';
+let ans2 = 'what are peas?';
 let ans3 = '';
 let ans4 = '';
 let ans5 = '';
@@ -86,14 +86,12 @@ function answered(theDiv, input, theScore) {
                 console.log('it is a match');
                 return true;
             }
-            else {
-                console.log('ummmmm no');
-                return false;
-            }
         }
+        console.log('ummmmm no');
+        return false;
     }
 
-    isCorrect=searchForAnswer();
+    isCorrect = searchForAnswer();
 
     if (isCorrect == true) {
         document.getElementById(theDiv).innerHTML = '<h2>CORRECT!</h2>';
