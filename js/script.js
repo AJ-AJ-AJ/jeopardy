@@ -1,5 +1,5 @@
 let ans1 = 'what is a hamburger?';
-let ans2 = '';
+let ans2 = 'This side dish is called Rice and ___?___ ';
 let ans3 = '';
 let ans4 = '';
 let ans5 = '';
